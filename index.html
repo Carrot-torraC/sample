@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UFT-8">
+ <title>Anime Basics</title>
+ <script src="/anime.js"></script>
+ <style>
+  #box {
+      width: 100px;
+      height: 100px;
+      background: #000;
+  }
+ </style>
+</head>
+<body>
+  <div id="box"></div>
+  <script>
+    anime({
+        targets: '#box',
+        duration: 2000,
+        translateX: 300,
+    });
+    </script>
+</body>
+</html>
